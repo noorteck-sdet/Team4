@@ -11,9 +11,15 @@ public class HWDemo {
 
 //}
 //new method from Mebrat....at 11:54AM
-public void practice() {
-	
-	System.out.println("Team4 is  practicing the clon, push, pull, stash");
+	public void practice() {
+
+		System.out.println("Team4 is  practicing the clon, push, pull, stash");
+	}
+
+//another method from Mebrat at 4:12pm..
+	public String weekDays(String name) {
+		name = "saturday";
+		return name;
 	}
 	//Instruction: Each team member pushes at least once by adding 1 method
 	//Practice Cloning, Pulling, Pushing, Stashing

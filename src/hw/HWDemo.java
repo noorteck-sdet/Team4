@@ -8,6 +8,12 @@ public class HWDemo {
 		System.out.println("This is Sinan");
 	}
 
+//}
+//new method from Mebrat....at 11:54AM
+public void practice() {
+	
+	System.out.println("Team4 is  practicing the clon, push, pull, stash");
+	}
 	//Instruction: Each team member pushes at least once by adding 1 method
 	//Practice Cloning, Pulling, Pushing, Stashing
 	

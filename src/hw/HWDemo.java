@@ -59,4 +59,31 @@ public void practice() {
 
 	//Good afternoon GitHub
 	
+	
+	//Dear Team I will add a question from codingbat.com to work on together
+	// this is from Functional-1 > doubling .. Yasmine 
+	
+	/*//this is the question--> Yasmine
+	 * Given a list of integers, return a list where each integer is multiplied by 2.
+	 
+			doubling([1, 2, 3]) → [2, 4, 6]
+			doubling([6, 8, 6, 8, -1]) → [12, 16, 12, 16, -2]
+			doubling([]) → []
+			
+	*/
+	
+	// You can choose your question and add your solution and lable it with your name YHB 
+	
+	public static List<Integer> doubling(List<Integer> nums){
+		 ArrayList<Integer> list = new ArrayList<Integer>();
+		  
+		 for(int i = 0 ; i < nums.size() ;i++){
+		   
+		   int n = nums.get(i);
+		   list.add(n*2);
+		 }
+		  System.out.println("Yasmine @ 3:00PM");
+		  return list;
+		
+	}
 }

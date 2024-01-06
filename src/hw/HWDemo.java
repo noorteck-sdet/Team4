@@ -14,7 +14,7 @@ public class HWDemo {
 
 	
 	public static void main(String[] args) {
-		System.out.println("Hello from Yasmine to Team 4...");
+		System.out.println("Hello from Yasmine to Team 4...at 9:30PM");
 
 	}
 	
@@ -29,7 +29,7 @@ public class HWDemo {
 		return studentName;
 	}
 	
-	//another method from YHB
+	//another method from YHB at 10:15AM
 		public void print2() {
 			System.out.println("YHB...");
 		}

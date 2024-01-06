@@ -30,6 +30,7 @@ public void practice() {
 		studentName.add("Ivan Samoilenko");
 		studentName.add("Yasmine");
 		studentName.add("Sinan");
+		studentName.add("Mebrat");
 		//add yourself to the list
 		
 		

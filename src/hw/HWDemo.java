@@ -36,5 +36,10 @@ public class HWDemo {
 		}
 	
 	//Practice pushing process .. YHB
+		
+		//math() from Ivan 11:30
+	public static int add(int a, int b) {
+		return a+b;
+	}
 	
 }

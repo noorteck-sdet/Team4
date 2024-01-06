@@ -2,7 +2,7 @@ package hw;
 
 public class HWDemo {
 	
-	public static void main(String[] args) {
+	public void print() {
 		System.out.println("This is Sinan");
 	}
 

@@ -23,6 +23,7 @@ public class HWDemo {
 		ArrayList<String> studentName = new ArrayList<>();
 		studentName.add("Ivan Samoilenko");
 		studentName.add("Yasmine");
+		studentName.add("Sinan");
 		//add yourself to the list
 		
 		

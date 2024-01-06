@@ -28,6 +28,10 @@ public class HWDemo {
 		return studentName;
 	}
 	
+	//another method from YHB
+		public void print2() {
+			System.out.println("YHB...");
+		}
 	
 	//Practice pushing process .. YHB
 	

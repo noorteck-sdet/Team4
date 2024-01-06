@@ -1,5 +1,7 @@
 package hw;
 
+import java.util.ArrayList;
+
 public class HWDemo {
 	
 	public void print() {
@@ -14,6 +16,16 @@ public class HWDemo {
 	public static void main(String[] args) {
 		System.out.println("Hello from Yasmine to Team 4...");
 
+	}
+	
+	
+	public static ArrayList<String> studentsName(){
+		ArrayList<String> studentName = new ArrayList<>();
+		studentName.add("Ivan Samoilenko");
+		//add yourself to the list
+		
+		
+		return studentName;
 	}
 	
 	

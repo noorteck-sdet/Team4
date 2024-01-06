@@ -49,4 +49,8 @@ public void practice() {
 		return a+b;
 	}
 	
+	public static int subtract(int c, int d) {
+		return c - d;
+	}
+	
 }

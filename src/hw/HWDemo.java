@@ -238,8 +238,8 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 	 // printed the variable homeWork ---> System.out.println(HW);
 	 //added close curley bracket
 	 
-	public void homeWork(String HW){
-		String homeWork="HW";
+	public void homeWork(String hW){
+		String homeWork=hW;
 		System.out.println(homeWork);
 	}
 

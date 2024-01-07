@@ -174,8 +174,9 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 			}
 		}
 
-	public static int add(int y, int z) {
+	/* public static int add(int y, int z) {
 		return y + z;
 	}
+	*/
 	
 }

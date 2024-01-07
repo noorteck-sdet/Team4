@@ -2,6 +2,7 @@ package hw;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class HWDemo {
 	
@@ -63,6 +64,21 @@ public class HWDemo {
 		System.out.println(" I like the group discusion");
 		// let make fun of it
 		
+		
+		//Ivan 1/7 5pm
+		ListIterator<Integer> iterator = list1.listIterator();
+		
+		while(iterator.hasNext()) {
+			Integer currentEl = iterator.next();
+			Integer newEl = currentEl*2;
+			
+			iterator.set(newEl);
+			
+		}
+		
+		System.out.println(list1);
+		
+		}
 		
 	}
 	
@@ -229,6 +245,8 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 		 
 		 return doubledList;
 	 }
+	 
+	 
 	
 		
 		

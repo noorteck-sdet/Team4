@@ -173,10 +173,9 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 				System.out.println("NOT EQUALS");
 			}
 		}
-
-	/* public static int add(int y, int z) {
-		return y + z;
-	}
-	*/
-	
+	//Lana
+	 public void add1(int n3,int n4) {
+   	  System.out.println(n3+n4);
+     }
+   	  
 }

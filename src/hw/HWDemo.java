@@ -23,6 +23,10 @@ public class HWDemo {
 		name = "saturday";
 		return name;
 	}
+	//method from MEbrat at 8:30pm.....
+	public void WhichMonth() {
+		System.out.println("January...");
+	}
 	//Instruction: Each team member pushes at least once by adding 1 method
 	//Practice Cloning, Pulling, Pushing, Stashing
 	

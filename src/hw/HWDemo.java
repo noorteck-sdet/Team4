@@ -212,6 +212,9 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 		 
 		 return doubledList;
 	 }
+	public void String HomeWork(String HW){
+		HomeWork=HW;
+		System.out.println(HW);
 	 
    	  
 }

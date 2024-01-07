@@ -147,6 +147,7 @@ public class HWDemo {
 /**Given an array of ints, return the number of 9's in the array.
 
 
+
 arrayCount9([1, 2, 9]) → 1
 arrayCount9([1, 9, 9]) → 2
 arrayCount9([1, 9, 9, 3, 9]) → 3
@@ -212,9 +213,18 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 		 
 		 return doubledList;
 	 }
-	public void String HomeWork(String HW){
-		HomeWork=HW;
-		System.out.println(HW);
+	
+		
+		
 	 
+	 //removed String from ----> public void String HomeWork(String HW)
+	 //added String to the variable homeWork ----> HomeWork=HW;
+	 // printed the variable homeWork ---> System.out.println(HW);
+	 //added close curley bracket
+	 
+	public void homeWork(String HW){
+		String homeWork="HW";
+		System.out.println(homeWork);
+	}
    	  
 }

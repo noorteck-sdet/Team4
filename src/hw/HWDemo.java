@@ -24,6 +24,10 @@ public class HWDemo {
 		name = "saturday";
 		return name;
 	}
+	//this method is from Mebrat..Sunday at 2:02pm
+	public void city() {
+		System.out.println("columbus....");
+	}
 	//method from MEbrat at 8:30pm.....
 	public void WhichMonth() {
 		System.out.println("January...");

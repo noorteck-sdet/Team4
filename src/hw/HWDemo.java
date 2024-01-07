@@ -34,12 +34,7 @@ public class HWDemo {
 	}
 	//Instruction: Each team member pushes at least once by adding 1 method
 	//Practice Cloning, Pulling, Pushing, Stashing
-<<<<<<< HEAD
-public static void main(String[] args) {
-	System.out.println(" I like the group discusion");
-	// let make fun of it
-}
-=======
+
 	
 
 	
@@ -54,6 +49,21 @@ public static void main(String[] args) {
 		list1.add(8);
 		list1.add(-1);
 		System.out.println(listDouble(list1));
+		
+		String s1 = "abc hi ho";
+		String s2 = "ABChi hi";
+		
+		HWDemo obj = new HWDemo();
+		int r1 = obj.countHi(s1);
+		int r2 = obj.countHi(s2);
+		
+		System.out.println(r1);
+		System.out.println(r2);
+		
+		System.out.println(" I like the group discusion");
+		// let make fun of it
+		
+		
 	}
 	
 	public void abcd() {
@@ -232,6 +242,5 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 		String homeWork="HW";
 		System.out.println(homeWork);
 	}
-   	  
->>>>>>> branch 'master' of https://github.com/noorteck-sdet/Team4.git
+
 }

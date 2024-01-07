@@ -34,7 +34,6 @@ public class HWDemo {
 	
 	public static void main(String[] args) {
 		System.out.println("Hello from Yasmine to Team 4...at 9:30PM");
-
 	}
 	
 	public void abcd() {
@@ -85,7 +84,7 @@ public class HWDemo {
 			
 	*/
 	
-	// You can choose your question and add your solution and lable it with your name YHB 
+	// You can choose your question and add your solution and label it with your name YHB 
 	
 	public static List<Integer> doubling(List<Integer> nums){
 		 ArrayList<Integer> list = new ArrayList<Integer>();
@@ -148,4 +147,11 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 		  return count;
 		}
 	
+
+	public HWDemo() {
+		// hello this is Cristian
+	}
+	
+	
+
 }

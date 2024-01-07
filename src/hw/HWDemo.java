@@ -47,6 +47,7 @@ public class HWDemo {
 		studentName.add("Yasmine");
 		studentName.add("Sinan");
 		studentName.add("Mebrat");
+		studentName.add("Jeremy");
 		//add yourself to the list
 		
 		

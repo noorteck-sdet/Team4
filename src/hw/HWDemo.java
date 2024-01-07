@@ -150,6 +150,7 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 
 	public HWDemo() {
 		// hello this is Cristian
+		//Time is 6am PT
 	}
 	
 	

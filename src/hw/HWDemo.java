@@ -39,6 +39,15 @@ public class HWDemo {
 	
 	public static void main(String[] args) {
 		System.out.println("Hello from Yasmine to Team 4...at 9:30PM");
+		
+		// test for listDouble() Ivan
+		List<Integer> list1 = new ArrayList<Integer>();
+		list1.add(6);
+		list1.add(8);
+		list1.add(6);
+		list1.add(8);
+		list1.add(-1);
+		System.out.println(listDouble(list1));
 	}
 	
 	public void abcd() {
@@ -182,5 +191,27 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 	 public void add1(int n3,int n4) {
    	  System.out.println(n3+n4);
      }
+	 
+	 
+	 /* Given a list of integers, return a list where each integer is multiplied by 2.
+			 
+				doubling([1, 2, 3]) → [2, 4, 6]
+				doubling([6, 8, 6, 8, -1]) → [12, 16, 12, 16, -2]
+				doubling([]) → []
+				
+		*/
+	 
+	 //Ivan 1/7/2024
+	 public static List<Integer> listDouble(List<Integer> list){
+		 
+		 List<Integer> doubledList = new ArrayList<>();
+		 
+		 for(int i=0;i<list.size(); i++) {
+			 doubledList.add(list.get(i)*2);
+		 }
+		 
+		 return doubledList;
+	 }
+	 
    	  
 }

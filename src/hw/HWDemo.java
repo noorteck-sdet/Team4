@@ -98,6 +98,37 @@ public class HWDemo {
 		  System.out.println("Yasmine @ 3:00PM");
 		  return list;
 	}
+	
+	/*	Yasmine @ 9:35PM
+	 * String-2 > countHi
+	 * Return the number of times that the string "hi" appears anywhere in the given string.
+		countHi("abc hi ho") → 1
+		countHi("ABChi hi") → 2
+		countHi("hihi") → 2
+		
+	 */
+	public int countHi(String str) {
+
+		int result = 0;
+
+		for (int i = 0; i < str.length() - 1; i++) {
+
+			char s = str.charAt(i);
+			String c = "";
+			c += s;
+
+			char s2 = str.charAt(i + 1);
+			String c2 = "";
+			c2 += s2;
+			if (c.equals("h") && c2.equals("i")) {
+				result++;
+
+			}
+
+		}
+		return result;
+	}
+	
 		  // Adding code from codingBat
 
 /**Given an array of ints, return the number of 9's in the array.

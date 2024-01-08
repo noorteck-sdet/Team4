@@ -58,13 +58,14 @@ public class HWDemo {
 		int r1 = obj.countHi(s1);
 		int r2 = obj.countHi(s2);
 		
-		System.out.println(r1);
-		System.out.println(r2);
+		System.out.println(s1 + " = " + r1);
+		System.out.println(s2 + " = " + r2);
 		
 		System.out.println(" I like the group discusion");
 		// let make fun of it
 		
-		
+		int r3 = obj.factorial(5);
+		System.out.println("factoral (5)= " + r3);
 		//Ivan 1/7 5pm
 		ListIterator<Integer> iterator = list1.listIterator();
 		
@@ -80,7 +81,6 @@ public class HWDemo {
 		
 		}
 		
-	}
 	
 	public void abcd() {
 		System.out.println(" YHB ... at 2:45PM");
@@ -259,6 +259,25 @@ arrayCount9([1, 9, 9, 3, 9]) → 3
 	public void homeWork(String hW){
 		String homeWork=hW;
 		System.out.println(homeWork);
+	}
+	
+	
+	//Recursion - 1 > factorial
+	/*
+	 * Given n of 1 or more, return the factorial of n, which is n * (n-1) * (n-2) ... 1. Compute the result recursively (without loops).
+
+		factorial(1) → 1
+		factorial(2) → 2
+		factorial(3) → 6
+	 */
+	public int factorial(int n) {
+
+		int result = 1;
+
+		for (int i = 1; i <= n; i++) {
+			result *= i;
+		}
+		return result;
 	}
 
 }

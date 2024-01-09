@@ -263,6 +263,11 @@ public class HWDemo {
 			result *= i;
 		}
 		return result;
+		//normal country of array
+	 //ahmed test 
+		
+		
+		
 	}
-
+		
 }
